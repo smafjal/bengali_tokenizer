@@ -12,7 +12,7 @@ In Bengali language we generally do tokenization based on whitespace and punctua
 * Trained model will save on "mode/" dir
 
 ## Example
-text = ** "বগুড়ায় জাতীয় লিগে দ্বিতীয় স্তরের ম্যাচে ঢাকা মেট্রোপলিসের হয়ে সেঞ্চুরি পেয়েছেন মাহমুদউল্লাহ।" <br>
+text = "বগুড়ায় জাতীয় লিগে দ্বিতীয় স্তরের ম্যাচে ঢাকা মেট্রোপলিসের হয়ে সেঞ্চুরি পেয়েছেন মাহমুদউল্লাহ।" <br>
 tokens = [ ▁বগুড়া , য় , ▁জাতীয় , ▁লিগে , ▁দ্বিতীয় , ▁স্তরের , ▁ম্যাচে , ▁ঢাকা , ▁মেট্রো , পলিস , ের , ▁হয়ে , ▁সেঞ্চুরি , ▁পেয়েছেন , ▁মাহমুদ , উল্লাহ , । , ]
  
 ## Acknowledgement
