@@ -1,7 +1,7 @@
 ## SentencePiece
 SentencePiece was released from google to do text tokenization. It's an unsupervised text tokenizer for Neural Network-based text generation. I tried to make it easy to use for the Bengali language. 
 
-##Usages
+## Usages
 In Bengali language we generally do tokenization based on whitespace and punctuations (e.g , . ; |). But by using this unsupervised tokenization model we can generate tokens list that can be easily used in many language models like word2vec, XLM, BERT or LASER to get context from Bengali language story. One of my major concerns to use this model for my other NLP/NLU task. 
 
 ## How
