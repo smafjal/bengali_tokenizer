@@ -30,7 +30,7 @@ def main(train=False):
     if train:
         train_model(args.data_dir, args.model_prefix, args.vocab)
 
-    text = "গতকাল ক্রিস্টাল প্যালেসকে তাদের মাঠে গিয়ে ২-০ গোলে হারিয়ে এসেছে ম্যানচেস্টার সিটি। ম্যাচে একজন সেন্টারব্যাককেও খেলাননি কোচ পেপ গার্দিওলা!"
+    text = "বগুড়ায় জাতীয় লিগে দ্বিতীয় স্তরের ম্যাচে ঢাকা মেট্রোপলিসের হয়ে সেঞ্চুরি পেয়েছেন মাহমুদউল্লাহ।"
 
     tokens = tokenize(text, model=args.model)
     print("Tokens: ", tokens)
